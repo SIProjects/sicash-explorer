@@ -1,8 +1,8 @@
 'use strict';
 
-angular.module('insight.qtumcorelib').factory('QtumCoreLib',
+angular.module('insight.sicashcorelib').factory('QtumCoreLib',
     function() {
-        var QtumCoreLib = require('qtumcore-lib');
+        var QtumCoreLib = require('sicashcore-lib');
         return QtumCoreLib;
     });
 
